@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  line-height: 50px;
+  background-color: red;
+  font-size: 50px;
+}
+header img{
+  width: 60px;
+}
+main{
+  /* background-color: blue; */
+  padding: 20px;
+}
+main #all-cats button, button.default-btn{
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 0;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+main #all-cats button:hover,  button.default-btn:hover{
+  background-color: lightgreen;
+  padding: 12px;
+}
+main ul#all-cats-list, ul.basicflex{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+main ul#all-cats-list> li, #gender-cats>ul>li{
+  flex-basis: 24%; /* 4 LI PER RIGA */
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  /* height: 40px;
+  width: 40px; */
+  padding: 5px;
+  list-style: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, .2);
+  
+}
+
+ul.noStyle{
+  list-style: none;
+}
+ul.boy-cats>li{
+  
+}
+.variableBg1{
+  background-color: red;
+}
+.variableBg2{
+  background-color: blue;
+}
+.variableBg3{
+  background-color: green;
+}
+i{
+  vertical-align: middle;
+  font-size: 40px;
+}
+li .image{
+  padding: 10px;
+  height: 200px;
+}
+li .image img{
+  /* width: 100%; */
+  height: 100%;
+}
