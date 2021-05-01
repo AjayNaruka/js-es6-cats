@@ -20,13 +20,6 @@ $(function(){
   let girls =[]
   let femaleFirst =[]
 
-  let catTemplate ={
-    nome:'',
-    age:0,
-    color: '',
-    gender:''
-  }
-
   //creo dinamicamente i gatti
   /* for(let i=0;i<nCats;i++){
     let toAddCat ={
